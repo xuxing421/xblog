@@ -6,7 +6,7 @@ locale:       "en"
 
 # Gems
 gems:
-  - jekyll-paginate
+  - jekyll-bak-bak-paginate
 
 #Others
 markdown: kramdown
