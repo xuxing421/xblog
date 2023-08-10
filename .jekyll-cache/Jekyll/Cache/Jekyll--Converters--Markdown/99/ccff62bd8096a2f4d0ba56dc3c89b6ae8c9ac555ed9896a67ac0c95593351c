@@ -1,11 +1,11 @@
-I"�<h3 id="一概念">一、概念</h3>
+I"M<h3 id="一概念">一、概念</h3>
 
 <h4 id="gc">GC</h4>
 
 <p>当程序向操作系统申请的内存不再需要时，垃圾回收主动将其回收并供其他代码进行内存申请时候复用，<br />
 或者将其归还给操作系统，这种针对内存级别资源的自动回收过程，即为垃圾回收</p>
 
-<p><img src="https://thumbnail0.baidupcs.com/thumbnail/fc4a065a0sa19fcd41f2830e372c33d8?fid=927473455-250528-476922322076347&amp;time=1691470800&amp;rt=sh&amp;sign=FDTAER-DCb740ccc5511e5e8fedcff06b081203-u5D5w5xfIq1K6ftz%2FJNjIMsaCvg%3D&amp;expires=8h&amp;chkv=0&amp;chkbd=0&amp;chkpc=&amp;dp-logid=480940886027894177&amp;dp-callid=0&amp;file_type=0&amp;size=c710_u400&amp;quality=100&amp;vuk=-&amp;ft=video" alt="GitHub set up" title="图片Title" /></p>
+<p><img src="https://i.postimg.cc/G29tGnKh/2023-08-08-1123.png" alt="GC示意图" /></p>
 
 <h3 id="二常见回收算法">二、常见回收算法</h3>
 
