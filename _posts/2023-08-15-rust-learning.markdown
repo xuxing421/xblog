@@ -1,19 +1,23 @@
 ---
 layout: post
-title:  "Golang GC"
-date:   2023-08-04 15:40:56
+title:  "Rust学习手册"
+date:   2023-08-15 15:40:56
 categories: jekyll update
 ---
 
 ### 一、概念
 
-#### GC
+#### 前提悉知
 
-   当程序向操作系统申请的内存不再需要时，垃圾回收主动将其回收并供其他代码进行内存申请时候复用，  
-或者将其归还给操作系统，这种针对内存级别资源的自动回收过程，即为垃圾回收
-
-![GC示意图](https://i.postimg.cc/G29tGnKh/2023-08-08-1123.png)
-
+   **cargo**   
+   rust的构建系统和包管理器。  
+   常用命令： 
+   ```
+ cargo new xxx:创建工程项目 
+ cargo build  
+ cargo run  
+```  
+  
 
 ### 二、常见回收算法
 
