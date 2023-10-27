@@ -1,11 +1,14 @@
-I"c<h3 id="一概念">一、概念</h3>
+I"�<h3 id="一概念">一、概念</h3>
 
-<h4 id="gc">GC</h4>
+<h4 id="前提悉知">前提悉知</h4>
 
-<p>当程序向操作系统申请的内存不再需要时，垃圾回收主动将其回收并供其他代码进行内存申请时候复用，<br />
-或者将其归还给操作系统，这种针对内存级别资源的自动回收过程，即为垃圾回收</p>
-
-<p><img src="https://i.postimg.cc/G29tGnKh/2023-08-08-1123.png" alt="GC示意图" /></p>
+<p><strong>cargo</strong> <br />
+   rust的构建系统和包管理器。<br />
+   常用命令：</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> cargo new xxx:创建工程项目 
+ cargo build  
+ cargo run  
+</code></pre></div></div>
 
 <h3 id="二常见回收算法">二、常见回收算法</h3>
 
@@ -34,5 +37,8 @@
 <p> <strong>标记阶段：</strong> 从根对象出发查找并标记堆中所有存活的对象；  <br />
  <strong>清除阶段：</strong> 遍历堆中的全部对象，回收未被标记的垃圾对象并将回收的内存加入空闲链表</p>
 
-<p>GC的对象们</p>
+<p>GC的对象们
+白色对象 — 潜在的垃圾，其内存可能会被垃圾收集器回收；
+黑色对象 — 活跃的对象，包括不存在任何引用外部指针的对象以及从根对象可达的对象；
+灰色对象 — 活跃的对象，因为存在指向白色对象的外部指针，垃圾收集器会扫描这些对象的子对象；</p>
 :ET
