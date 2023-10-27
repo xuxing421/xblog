@@ -830,10 +830,11 @@ dl dd {
     display: inline;
     font-size: 13px;
   }
-  header a.navi {
+  .navi {
     background-color: #000000;
     display: inline;
     font-size: 13px;
+    color: #d5000d;
   }
   #main-content,
   aside#sidebar {
