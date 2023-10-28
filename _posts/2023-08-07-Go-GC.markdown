@@ -12,7 +12,8 @@ categories: jekyll update
    当程序向操作系统申请的内存不再需要时，垃圾回收主动将其回收并供其他代码进行内存申请时候复用，  
 或者将其归还给操作系统，这种针对内存级别资源的自动回收过程，即为垃圾回收
 
-![GC示意图](https://i.postimg.cc/G29tGnKh/2023-08-08-1123.png)
+![2023-08-08-1123](https://github.com/xuxing421/imageBed/assets/56280293/afc3aa76-68a7-4372-8997-ff4b6f69d17e)
+
 
 
 ### 二、常见回收算法
